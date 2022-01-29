@@ -8,6 +8,7 @@
     <style>
         #body {
             background: #ffffff;
+            font-family: 'Montserrat', arial, helvetica, sans-serif; 
         }
         #email {
             width: 100%; border: 0; border-spacing: 0; padding: 0;
@@ -15,20 +16,48 @@
         #email__container {
             width: 600px; border-spacing: 0; padding: 0; margin-left: auto; margin-right: auto; border: 0;
         }
-        #hero {
-            width: 100%; border-spacing: 0; padding: 0;  border: 0;
+        .container {
+            width: 100%; border-spacing: 0; padding: 0;  border: 0; 
         }
         #hero__img{
             width: 600px;
         }
         #hero__txt {
-            font-family: 'Montserrat', arial, helvetica, sans-serif; line-height: 24px; font-size: 20px; text-align: center; margin-top: 0; margin-bottom: 25px;
+            line-height: 24px; font-size: 20px; text-align: center; margin-top: 0; margin-bottom: 34px;
         }
         #hero__button {
             text-align: center;
         }
         .kids-cta {
            background: #26d7df; color: #ffffff; text-decoration: none; font-family: arial, helvetica, sans-serif; font-size: 20px; padding: 14px 20px; font-weight: 600;
+        }
+        #ellipsis {
+            margin-top: 10px; padding-top: 16px; text-align: center;
+        }
+        #ellipsis__img {
+            width: 600px;
+        }
+      
+        .shoes__left {
+            width: 50%; border-spacing: 0; float: right; border: 0;
+        }
+        .shoes__img {
+            width: 350px; height: auto;
+        }
+        .shoes__right {
+            width: 50%; border-spacing: 0; float: left; border: 0; 
+        }
+        .shoes__text {
+            text-align: center;
+        }
+        .shoes__title {
+            font-size:20px; color: #26d7df; font-weight: 600;
+        }
+        .shoes__copy {
+             font-size:16px; line-height:20px;
+        }
+        .shoes__link {
+            font-weight: bold; color: #000000; text-decoration: none; border-bottom: 2px solid #9c9c9c;
         }
     </style>
 </head>
@@ -42,7 +71,7 @@
                     <!-- Start of Hero Section -->
                     <tr>
                         <td>
-                            <table id="hero">
+                            <table class="container">
                                 <tr >
                                     <td>
                                         <a href="https://www.saucony.com/en/kids/" target="__blank">
@@ -66,9 +95,110 @@
                             </table>
                         </td>
                     </tr>
-                     <!-- Start of Hero Section -->
+                     <!-- End of Hero Section -->
                 </table>
-                <!-- Start of Email Container -->
+                <!-- Start of ellipsis Section -->
+                <tr>
+                    <td>
+                        <table class="container" id="ellipsis">
+                            <tr>
+                                <td>
+                                    <img src="img/ellipsis.jpg" alt="ellipsis" id="ellipsis__img">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- End of Ellipsis Section -->
+                <!--Start of Shoes Section -->
+                <tr>
+                    <td>
+                        <table class="container" id="shoes">
+                            <!-- Start of WindShield  -->
+                            <tr>
+                                <td>
+                                    <table class="shoes__left">
+                                        <tr>
+                                            <td style="position: relative; top: 10px; left: 3px;">
+                                                <img src="img/shoe-1.jpg" alt="shoe-1" class="shoes__img">
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="shoes__right">
+                                        <tr>
+                                            <td class="shoes__text">
+                                                <p class="shoes__title">Wind Shield</p>
+                                                <p class="shoes__copy">A stretchable heel allows <br> feet to slip in and out <br> easily without re-lacing. <br> <strong>*Bonus points*</strong> for <br> water-repellant play.</p>
+                                                <a href="https://www.saucony.com/en/wind-shield-a-c-sneaker/44743K.html?dwvar_44743K_color=SK164316" class="shoes__link">Shop Now</a>
+                                            </td>
+                                        </tr>
+
+                                    </table>  
+                                </td>
+                            </tr>
+                            <!-- End of WindShield  -->
+
+                               <!-- Start of Peregrine 11 Shield  -->
+                               <tr>
+                                <td>
+                                    <table class="shoes__left">
+                                        <tr>
+                                            <td class="shoes__text">
+                                                <p class="shoes__title">Peregrine 11</p>
+                                                <p class="shoes__copy">Rugged and ready for anything <br> with serious traction and <br> water-repellant power.</p>
+                                                <a href="https://www.saucony.com/en/peregrine-11-shield-sneaker/48742K.html" class="shoes__link">Shop Now</a>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="shoes__right">
+                                        <tr>
+                                            <td>
+                                                <img src="img/shoe-2.jpg" alt="shoe-1" class="shoes__img">
+                                            </td>
+                                        </tr>
+
+                                    </table>  
+                                </td>
+                            </tr>
+                            <!-- End of Peregrine 11 Shield -->
+                            <!-- Start of Kinvara 12 -->
+                                <tr>
+                                    <td>
+                                        <table class="shoes__left" style="position: relative; left: 5px; bottom: 8px;">
+                                            <tr>
+                                                <td>
+                                                    <img src="img/shoe-3.jpg" alt="shoe-1" class="shoes__img">
+                                                </td>
+                                            </tr>
+    
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table class="shoes__right">
+                                            <tr>
+                                                <td class="shoes__text">
+                                                    <p class="shoes__title">Kinvara 12</p>
+                                                    <p class="shoes__copy">The shoe you love in <br> mini-me style – durable, <br> lightweight, and breathable.</p>
+                                                    <a href="https://www.saucony.com/en/kinvara-12-a-c-sneaker/48741K.html" class="shoes__link" >Shop Now</a>
+                                                </td>
+                                            </tr>
+    
+                                        </table>  
+                                    </td>
+                                </tr>
+                                <!-- End of Kinvara 12 -->
+                            
+                        </table>
+                    </td>
+                </tr>
+                <!--End of Shoes Section -->
+                <!-- End of Email Container -->
             </td>
         </tr>
 
